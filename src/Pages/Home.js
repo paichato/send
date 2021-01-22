@@ -8,9 +8,9 @@ function Home() {
             <Nav>
                 <Logo>SEND</Logo>
                 <NavItems>
-                    <a href="/"> Home</a>
-                    <a href="/"> About</a>
-                    <a href="/"> Contact</a>
+                    <a href="/send"> Home</a>
+                    <a href="/send"> About</a>
+                    <a href="/send"> Contact</a>
 
                 </NavItems>
 
