@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Send - Landing Page
 
 > This is a simple landing page made with React, styled components, following a responsive design.
 #### Landing Page Preview
