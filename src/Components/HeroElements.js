@@ -18,7 +18,7 @@ color:#251101;
 font-weight:bold;
 font-style: italic;
 padding: 0 2rem;
-
+cursor: pointer;
 `
 
 export const NavItems=styled.div`
@@ -29,6 +29,7 @@ a{
     text-decoration:none;
     color:#251101;
     padding: 0 1.5rem;
+    font-weight:bold;
     
 }
 
@@ -45,12 +46,18 @@ display:grid;
 grid-template-columns: 1fr 1fr;
 height:95vh;
 padding: 0rem calc((100vw - 1300px)/2);
+
+@media screen and(max-width:768px){
+    grid-template-columns:1fr;
+    
+}
 `
 export const HeroLeft=styled.div`
 display:flex;
 flex-direction:column;
 align-items:flex-start;
-padding: 0 2rem;
+padding: 0rem 2rem;
+margin-top: 30vh;
 
 h1{
     font-size: 3rem;
@@ -68,7 +75,7 @@ export const HeroButtonWrapper=styled.div`
 
 button{
         border-radius:100px;
-        color: white;
+        color: #FFBF00;
         background:#251101;
         padding: 1rem 3rem;
         border:none;
@@ -79,6 +86,7 @@ button{
 
         &:hover{
             background:#140901;
+            color:white;
         }
 }
 
